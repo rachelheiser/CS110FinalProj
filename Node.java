@@ -1,6 +1,8 @@
-public class Node {
+public class Node 
+{
   private Object item;
   private Node next;
+  
 
   public Node(Object newItem) {
     item = newItem;
@@ -16,7 +18,10 @@ public class Node {
     item = newItem;
   } // end setItem
 
-  public Object getItem() {
+  public Object getItem() 
+  {
+   // adding a println
+    System.out.println("Hello");
     return item;
   } // end getItem
 
